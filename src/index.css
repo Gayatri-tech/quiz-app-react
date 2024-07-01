@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-links {
+  @apply cursor-pointer  border-b-2 border-transparent md:hover:border-black;
+}
