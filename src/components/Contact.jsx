@@ -15,7 +15,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 p-6">
+    <div className="flex flex-col items-center justify-center bg-gray-100 p-6 h-screen">
       <h1 className="text-3xl font-bold mb-6 text-center">
         Let's work together...
       </h1>

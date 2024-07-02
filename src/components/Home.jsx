@@ -17,7 +17,7 @@ const Home = () => {
       setError(null);
 
       try {
-        let url = `https://quizapi.io/api/v1/questions?apiKey=${API_KEY}&limit=5`;
+        let url = `https://quizapi.io/api/v1/questions?apiKey=${API_KEY}&limit=10`;
         if (selectedCategory) {
           url += `&category=${selectedCategory}`;
         }
