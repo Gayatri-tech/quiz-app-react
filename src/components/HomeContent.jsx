@@ -72,7 +72,7 @@ const Quiz = ({ questions = [], resetQuiz }) => {
   const question = processedQuestions[currentQuestionIndex];
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-gray-100 rounded-lg shadow-md my-4 flex flex-col">
+    <div className="max-w-sm md:max-w-lg mx-auto p-6 bg-gray-100 rounded-lg shadow-md my-4 flex flex-col">
       <div className="text-gray-600 mb-4">
         Question {currentQuestionIndex + 1} of {processedQuestions.length}
       </div>

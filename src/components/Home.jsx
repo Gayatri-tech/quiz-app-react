@@ -46,7 +46,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="h-screen">
       <Categories onSelectCategory={setSelectedCategory} />
 
       {loading && <div className="text-center">Loading...</div>}
